@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Привет, Мир! (со статикой)</title>
+        <link rel="stylesheet" href="{{ STATIC_URL }}css/index.css">
+    </head>
+    <body>
+        <div class="header">
+            <img src="{{ STATIC_URL }}img/dpb-logo.png" alt="Логотип">
+        </div>
+        <div class="content">
+            <h1>Привет, Мир!</h1>
+            <h2>Это учебный сайт, с его помощью будут изучены технологии python/django, html/css.</h2>
+            <h3>Как видите, здесь используются заголовки различных уровней.</h3>
+            
+            <h4>Маркированный список</h4>
+            <ul>
+                <li>Элемент 1;</li>
+                <li>элемент 2;</li>
+                <li>элемент 3;</li>
+                <li>последний элемент.</li>
+            </ul>
+            
+            <h4>Нумерованный список</h4>
+            <ol>
+                <li>Элемент 1;</li>
+                <li>элемент 2;</li>
+                <li>элемент 3;</li>
+                <li>последний элемент.</li>
+            </ol>
+            
+            <h4>Пример таблицы</h4>
+            <table>
+                <tr>
+                    <td>Строка1 Столбец1</td>
+                    <td>Строка1 Столбец2</td>
+                </tr>
+                <tr>
+                    <td>Строка2 Столбец1</td>
+                    <td>Строка2 Столбец2</td>
+                </tr>
+                <tr>
+                    <td>Строка3 Столбец1</td>
+                    <td>Строка3 Столбец2</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
